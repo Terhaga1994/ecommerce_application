@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "625558687064",
+    "project_id": "e-commerce-app-5dde5",
+    "storage_bucket": "e-commerce-app-5dde5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625558687064:android:5c4acf1e8131156975292d",
+        "android_client_info": {
+          "package_name": "com.terhaga.ecommerce_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625558687064-et7ih0cakfrs9rf3tems2bbig3r6r9lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.terhaga.ecommerce_application",
+            "certificate_hash": "ad88d20662def82ce11061cbc694c3b467856b5f"
+          }
+        },
+        {
+          "client_id": "625558687064-61nsj6ddd6me7ppbmigo6hr8h9nbpcfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKIjexQhqlYkm4vilLPysMpkhRAwbRN8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625558687064-61nsj6ddd6me7ppbmigo6hr8h9nbpcfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

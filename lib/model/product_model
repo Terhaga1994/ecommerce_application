@@ -1,0 +1,32 @@
+class ProductModel {
+
+String? nameProduct;
+String? priceProduct;
+String? descriptionProduct;
+String? categoryProduct;
+String? locationProduct;
+
+ProductModel({this.nameProduct,this.priceProduct,this.descriptionProduct,this.categoryProduct,this.locationProduct});
+//recive data from sever
+factory ProductModel.fromMap(map){
+  return ProductModel(
+    
+    nameProduct: map["name Product"],
+    priceProduct: map['price Product'],
+    descriptionProduct: map['description Product'],
+    categoryProduct: map['category Pruduct'],
+    locationProduct: map['location Product'],
+  );
+}
+//send data to server
+Map<String,dynamic> toMap(){
+  return {
+   
+    'name Product':nameProduct,
+    'price Product':priceProduct,
+    'description Product':descriptionProduct,
+    'category Product':categoryProduct,
+    'location Product':locationProduct,
+  };
+}
+}
